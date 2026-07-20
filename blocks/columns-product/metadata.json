@@ -1,0 +1,40 @@
+{
+  "variantName": "columns-product",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-07-15T09:13:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://main--accs-b2b--demo-system-stores.aem.live/",
+    "originPage": "Bodea B2B home page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "wide",
+    "purpose": "product",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image column + text column (heading + subheading + paragraph + CTA), alternating sides",
+    "columnCount": 2,
+    "rowCount": 2,
+    "buttonCount": 2,
+    "imageCount": 2
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "product highlight callouts with image + text",
+      "alternating image/text feature rows",
+      "side-by-side comparison or showcase layouts"
+    ],
+    "notSuitableFor": [
+      "uniform repeating card grids (use cards)",
+      "single-column stacked content"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-07-15T09:13:00.000Z"
+  }
+}

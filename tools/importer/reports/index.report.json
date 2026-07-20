@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://main--accs-b2b--demo-system-stores.aem.live/",
+  "path": "index",
+  "timestamp": "2026-07-16T13:23:16.275Z",
+  "title": "Home | Bodea",
+  "template": "home-page",
+  "blocks": [
+    "carousel-hero",
+    "cards-feature",
+    "columns-product",
+    "accordion-faq"
+  ]
+}

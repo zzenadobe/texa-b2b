@@ -1,0 +1,39 @@
+{
+  "variantName": "accordion-faq",
+  "baseBlock": "accordion",
+  "version": "1.0.0",
+  "created": "2026-07-15T09:13:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://main--accs-b2b--demo-system-stores.aem.live/",
+    "originPage": "Bodea B2B home page",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "wide",
+    "purpose": "faq",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "question title + answer body per item",
+    "itemCount": 5,
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "FAQ sections",
+      "question-and-answer content",
+      "collapsible topic lists"
+    ],
+    "notSuitableFor": [
+      "content that must always be visible",
+      "short single-item content that does not need toggling"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-07-15T09:13:00.000Z"
+  }
+}

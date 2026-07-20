@@ -48,9 +48,21 @@
     ]
   },
   {
+    "id": "accordion-faq",
+    "components": [
+      "accordion-faq-item"
+    ]
+  },
+  {
     "id": "accordion",
     "components": [
       "accordion-item"
+    ]
+  },
+  {
+    "id": "cards-feature",
+    "components": [
+      "card"
     ]
   },
   {
@@ -60,9 +72,30 @@
     ]
   },
   {
+    "id": "carousel-hero",
+    "components": [
+      "carousel-hero-item"
+    ]
+  },
+  {
     "id": "carousel",
     "components": [
       "carousel-item"
+    ]
+  },
+  {
+    "id": "columns-product",
+    "components": [
+      "column"
+    ]
+  },
+  {
+    "id": "column",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
     ]
   },
   {

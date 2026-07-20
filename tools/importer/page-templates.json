@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "projectType": "da"
+  },
+  "templates": [
+    {
+      "name": "home-page",
+      "urls": [
+        "https://main--accs-b2b--demo-system-stores.aem.live/"
+      ],
+      "representativeUrl": "https://main--accs-b2b--demo-system-stores.aem.live/",
+      "coverageGaps": [],
+      "description": "Bodea B2B home page with header/nav, carousel hero, cards section, columns/product highlights, FAQ accordion, and footer",
+      "blocks": [
+        {
+          "name": "carousel-hero",
+          "instances": [
+            "body > main > div.section.carousel-container div.carousel.block",
+            ".carousel-container .carousel.block"
+          ]
+        },
+        {
+          "name": "cards-feature",
+          "instances": [
+            "body > main > div.section.highlight.cards-container div.cards.block",
+            ".cards-container .cards.block"
+          ]
+        },
+        {
+          "name": "columns-product",
+          "instances": [
+            "body > main > div.section.highlight.columns-container div.columns.block",
+            ".columns-container .columns.block"
+          ]
+        },
+        {
+          "name": "accordion-faq",
+          "instances": [
+            "body > main > div.section.accordion-container div.accordion.block",
+            ".accordion-container .accordion.block"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "rc2",
+          "name": "carousel-section",
+          "selector": [
+            "body > main > div.section.carousel-container",
+            ".section.carousel-container"
+          ],
+          "style": null,
+          "blocks": [
+            "carousel-hero"
+          ],
+          "defaultContent": [
+            "body > main > div.section.carousel-container > div.default-content-wrapper"
+          ]
+        },
+        {
+          "id": "rc3",
+          "name": "cards-section",
+          "selector": [
+            "body > main > div.section.highlight.cards-container",
+            ".section.highlight.cards-container"
+          ],
+          "style": "highlight",
+          "blocks": [
+            "cards-feature"
+          ],
+          "defaultContent": [
+            "body > main > div.section.highlight.cards-container > div.default-content-wrapper"
+          ]
+        },
+        {
+          "id": "rc4",
+          "name": "columns-section",
+          "selector": [
+            "body > main > div.section.highlight.columns-container",
+            ".section.highlight.columns-container"
+          ],
+          "style": "highlight",
+          "blocks": [
+            "columns-product"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc5",
+          "name": "accordion-section",
+          "selector": [
+            "body > main > div.section.accordion-container",
+            ".section.accordion-container"
+          ],
+          "style": null,
+          "blocks": [
+            "accordion-faq"
+          ],
+          "defaultContent": [
+            "body > main > div.section.accordion-container > div.default-content-wrapper"
+          ]
+        }
+      ]
+    }
+  ]
+}

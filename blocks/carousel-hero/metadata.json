@@ -1,0 +1,39 @@
+{
+  "variantName": "carousel-hero",
+  "baseBlock": "carousel",
+  "version": "1.0.0",
+  "created": "2026-07-15T09:13:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://main--accs-b2b--demo-system-stores.aem.live/",
+    "originPage": "Bodea B2B home page",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "hero",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "background image + heading + subheading",
+    "slideCount": 2,
+    "buttonCount": 0,
+    "imageCount": 2
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "home page hero banners",
+      "full-bleed image slideshows with overlaid text",
+      "landing page top-of-page rotators"
+    ],
+    "notSuitableFor": [
+      "text-only content carousels",
+      "small inline galleries without background imagery"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-07-15T09:13:00.000Z"
+  }
+}
