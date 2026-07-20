@@ -4,6 +4,10 @@
       "type": "stdio",
       "command": "npx",
       "args": ["@dropins/mcp"]
+    },
+    "da-live": {
+      "type": "http",
+      "url": "https://mcp.adobeaemcloud.com/adobe/mcp/da"
     }
   }
 }
